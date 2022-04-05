@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #F4F4F4;
+}
+
+.warper {
+    width: 80%;
+    margin: 115px auto;
+}
+
+.warper h2 {
+    text-align: center;
+    font-size: 43px;
+    font-weight: 400;
+    margin: 66px 0;
+}
+
+.main_page {
+    display: flex;
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 1px 2px 20px 12px #00000012;
+}
+
+.from {
+    width: 50%;
+    padding: 30px;
+}
+
+.from h1 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.from p {
+    color: #666666;
+}
+
+.infomation {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+.infomation h3 {
+    color: #00000033;
+    padding-bottom: 15px;
+}
+
+.infomation p {
+    color: #666666;
+}
+
+.images {
+    width: 50%;
+    height: 100px;
+}
+
+.images img {
+    width: 100%;
+    height: 808px;
+}
+
+form textarea {
+    border: none;
+    border-bottom: 1px solid #6666;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    height: 120px;
+}
+
+form input {
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid #6666;
+    padding: 5px 0;
+    margin-bottom: 18px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+    border-color: #666;
+}
+
+form input[type='submit'] {
+    background-color: #D99C22;
+    width: auto;
+    padding: 18px 25px;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    margin: 14px 0;
+    pointer-events: caso;
+    cursor: pointer;
+}
+
+.follow {
+    margin-top: 72px;
+}
+
+.follow h4 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.socil_icon ul {
+    list-style: none;
+}
+
+.socil_icon ul li {
+    float: left;
+    margin: 10px 0;
+    margin-right: 40px;
+}
+
+.socil_icon ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #00000033;
+}
+
+.socil_icon ul li a:hover {
+    color: #666;
+}
